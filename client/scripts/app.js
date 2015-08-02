@@ -8,8 +8,10 @@ $(document).ready(function (){
             $.each(data, function() {
                 $('.cohortDiv').append('<div class="personDiv"></div>');
                 var short = $('.cohortDiv').children().last();
-                short.append('<h2>' + this.name + '</h2>');
+                short.append('<h2>' + this.name + ';</h2>');
+                short.append('<hr>');
                 short.append('<p>About me: ' + this.desc + '</p>');
+                short.append('<hr>');
                 short.append('<p>Shoutout: ' + this.thanks + '</p>');
             });
             $('.personDiv:first').addClass("shown-person");//will execute after the each loop
@@ -23,7 +25,7 @@ $(document).ready(function (){
         if(nextPerson.length === 0) {
             nextPerson = $('.personDiv').first();
         }
-        currentPerson.fadeOut(1000).removeClass('shown-person');
+        currentPerson.fadeOut(400).removeClass('shown-person');
         nextPerson.fadeIn(1000).addClass('shown-person');
     });
 
@@ -35,7 +37,7 @@ $(document).ready(function (){
         if(nextPerson.length === 0) {
             nextPerson = $('.personDiv').last();
         }
-        currentPerson.fadeOut(1000).removeClass('shown-person');
+        currentPerson.fadeOut(400).removeClass('shown-person');
         nextPerson.fadeIn(1000).addClass('shown-person');
     });
 });

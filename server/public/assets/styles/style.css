@@ -8,20 +8,25 @@ body {
     height: 100px;
 }
 
+h1, h2, p {
+    font-family: 'Trade Winds', cursive;
+}
+
 h1 {
-    font-size: 60px;
-    color: #4d4d4d;
+    font-size: 70px;
+    color: #526614;
 }
 
 .arrows {
     position: relative;
-    margin-left: 200px;
+    margin-left: 265px;
 }
 
 .cohortDiv {
     position: relative;
     width:800px;
-    margin-left: 100px;
+    margin: 220px 0 0 150px;
+
 }
 
 .personDiv {
@@ -47,7 +52,7 @@ h2, p {
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right:30px solid blue;
+    border-right:30px solid #526614;
 }
 
 .otherway {
@@ -55,6 +60,6 @@ h2, p {
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left:30px solid blue;
+    border-left:30px solid #526614;
 }
 
