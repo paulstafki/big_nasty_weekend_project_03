@@ -1,0 +1,60 @@
+body {
+    background-image: url(../images/mainbackground.jpg);
+}
+
+.titleDiv {
+    margin-left: 50px;
+    background-color: transparent;
+    height: 100px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #4d4d4d;
+}
+
+.arrows {
+    position: relative;
+    margin-left: 200px;
+}
+
+.cohortDiv {
+    position: relative;
+    width:800px;
+    margin-left: 100px;
+}
+
+.personDiv {
+    display: none;
+    position: absolute;
+}
+
+.shown-person {
+    display: block;
+}
+
+h2, p {
+    color: #FFFFFF;
+}
+
+.oneway, .otherway {
+    display: inline-block;
+    align-items: center;
+}
+
+.oneway {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right:30px solid blue;
+}
+
+.otherway {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left:30px solid blue;
+}
+
