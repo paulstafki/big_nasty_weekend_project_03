@@ -1,5 +1,3 @@
-
-
 $(document).ready(function (){
     $.ajax({
         url: "/data",
@@ -17,8 +15,8 @@ $(document).ready(function (){
             $('.personDiv:first').addClass("shown-person");//will execute after the each loop
         }
     });
-
-    $("body").on('click', '.oneway', function() {
+//still need to inquire about trying to make a container fluid, whilst containing an 'absolute' div
+    $("body").on('click', '.oneway', function() {                            //first world problems
         console.log("oneway clicked!");
         var currentPerson = $('.shown-person');
         var nextPerson = currentPerson.next();
