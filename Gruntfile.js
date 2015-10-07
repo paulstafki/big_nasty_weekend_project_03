@@ -26,6 +26,18 @@ module.exports = function(grunt){
                     "bootstrap/dist/css/bootstrap.min.css"
                 ],
                 "dest": "server/public/vendors/"
+            },
+            html: {
+                expand: true,
+                cwd: 'client',
+                src: "views/index.html",
+                "dest": "server/public/"
+            },
+            style: {
+                expand: true,
+                cwd: 'client',
+                src: "styles/style.css",
+                "dest": "server/public/assets/"
             }
         }
     });
