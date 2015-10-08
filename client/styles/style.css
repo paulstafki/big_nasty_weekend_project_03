@@ -3,7 +3,11 @@ body {
 }
 
 .backgroundDiv {
-    background: url(../images/mainbackground.jpg);
+    background: url(../images/mainbackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .titleDiv {
@@ -18,7 +22,7 @@ h1, h2, p {
 
 h1 {
     font-size: 70px;
-    color: #526614;
+    color: #dbdbdb;
 }
 
 .arrows {
@@ -56,7 +60,7 @@ h2, p {
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right:30px solid #526614;
+    border-right:30px solid #dbdbdb;
 }
 
 .otherway {
@@ -64,5 +68,5 @@ h2, p {
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left:30px solid #526614;
+    border-left:30px solid #dbdbdb;
 }
