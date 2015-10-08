@@ -1,4 +1,8 @@
 body {
+    background-color: #000000;
+}
+
+.backgroundDiv {
     background: url(../images/mainbackground.jpg);
 }
 
